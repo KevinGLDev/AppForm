@@ -1,0 +1,48 @@
+.tarea-completada{
+    color: black;
+    background-color: green;
+}
+
+.tarea-incompleta{
+    color: black;
+    background-color: red;
+}
+
+.tarea-completada, .tarea-incompleta{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    height: 60px;
+    width: 100%;
+    
+    
+}
+
+.contenido-tarea{
+    display: flex;
+    align-items: center;
+    
+    
+    
+    
+    width: 70%;
+    cursor: pointer;
+
+    
+}
+.boton-eliminar-tarea{
+    border-radius: 5px;
+    height: 30px;
+    width: 15%;
+    cursor: pointer;
+    
+}
+.boton-eliminar-tarea:hover{
+    background-color: black;
+    color: white;
+    
+}
+

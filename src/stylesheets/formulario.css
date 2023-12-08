@@ -1,0 +1,32 @@
+.contenedor-formulario{
+    
+    background-color: rgb(90, 77, 77);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 20px;
+    width: 800px;
+    min-height: 500px;
+    
+}
+.lista-formulario{
+    width: 80%;
+    
+    
+}
+
+.lista-tareas{
+   display: flex;
+   border: 5px solid rgb(175, 12, 12);
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   width: 700px;
+   min-height: 400px;
+   
+   
+   
+    
+}
